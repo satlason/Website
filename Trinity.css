@@ -1,0 +1,16 @@
+a{
+color: white;
+}
+
+body{
+background-color:green;
+background-image: url("Background Image.png");
+font-family:"Verdana";
+font-size:16px;
+color: #FFFFFF;
+font-weight: bold;
+}
+
+h1{
+color: black;
+}

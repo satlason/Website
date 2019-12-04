@@ -1,66 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1404.47">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 15.0px 'Helvetica Neue'; color: #373a3c; -webkit-text-stroke: #373a3c}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 17.0px; font: 15.0px 'Helvetica Neue'; color: #373a3c; -webkit-text-stroke: #373a3c; background-color: #ffffff}
-    span.s1 {font-kerning: none; background-color: #ffffff}
-    span.s2 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;html&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;head&gt;</span><span class="s2"><br>
-</span><span class="s1">     &lt;title&gt;My Sketch&lt;/title&gt;</span><span class="s2"><br>
-</span><span class="s1">     &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"&gt;&lt;/script&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;/head&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;body&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;script type="application/processing"&gt;</span><span class="s2"><br>
-<br>
-</span><span class="s1">void setup() {</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>size(500,500);</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p2"><span class="s2">void draw() {</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space">   </span>background(199,226,255);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//balloon</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>line(mouseX,mouseY,mouseX,mouseY-100);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,255,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(mouseX,mouseY-100,50,50);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,255);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(mouseX-10,mouseY-70,50,50);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(255,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(mouseX-30,mouseY-105,50,50);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//face</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(255,255,255);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(250,200,120,150);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//hat</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(250,130,110,10);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>rect(223,77,57,57);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//eyes</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>circle(220,170,10);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>circle(280,170,10);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//nose</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>circle(250,190,10);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//mouth</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(0,0,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>arc(250, 220, 80, 80, 0, PI, CHORD);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>//sun</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>fill(255,204,0);</span></p>
-<p class="p2"><span class="s2"><span class="Apple-converted-space"> </span>ellipse(50,50,70,70);</span></p>
-<p class="p2"><span class="s2">}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;canvas&gt; &lt;/canvas&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;/body&gt;</span><span class="s2"><br>
-</span><span class="s1">&lt;/html&gt;</span></p>
-</body>
-</html>
+<!DOCTYPE html> <html> <head>      <title>My Sketch</title>      <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script> </head> <body> <script type="application/processing">  void setup() {
+ size(500,500);
+}
+void draw() {
+   background(199,226,255);
+ //balloon
+ line(mouseX,mouseY,mouseX,mouseY-100);
+ fill(0,255,0);
+ ellipse(mouseX,mouseY-100,50,50);
+ fill(0,0,255);
+ ellipse(mouseX-10,mouseY-70,50,50);
+ fill(255,0,0);
+ ellipse(mouseX-30,mouseY-105,50,50);
+ //face
+ fill(255,255,255);
+ ellipse(250,200,120,150);
+ //hat
+ fill(0,0,0);
+ ellipse(250,130,110,10);
+ fill(0,0,0);
+ rect(223,77,57,57);
+ //eyes
+ fill(0,0,0);
+ circle(220,170,10);
+ circle(280,170,10);
+ //nose
+ fill(0,0,0);
+ circle(250,190,10);
+ //mouth
+ fill(0,0,0);
+ arc(250, 220, 80, 80, 0, PI, CHORD);
+ //sun
+ fill(255,204,0);
+ ellipse(50,50,70,70);
+}
+</script> <canvas> </canvas> </body> </html>
